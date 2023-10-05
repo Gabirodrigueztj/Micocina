@@ -5,4 +5,44 @@ margin-left: 5%;
 body .instrucciones {
 color: rgb(59, 59, 59);
 font-size: 70%;
+overflow-y: scroll;
+max-height: 200px;
 }
+
+#buscar-btn {
+    background-color: #007bff; /* Cambia el color de fondo del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+
+  }
+  
+  #buscar-btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+    
+  }
+
+  body .buscador-container {
+    margin: 5%;
+    }
+
+    body .clase-receta-aleatoria {
+        background-color: rgb(243, 243, 243);
+        border-radius: 5%;
+        height: 400px;
+        width: 500px;
+       
+    }
+
+    body .barra-arriba {
+        height: 20PX;
+        background-color: black;
+
+    }
+
+    body .barra-abajo {
+        height: 20PX;
+        background-color: black;
+
+    }
