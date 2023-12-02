@@ -27,12 +27,11 @@ max-height: 200px;
     margin: 5%;
     }
 
-    body .clase-receta-aleatoria {
-        background-color: rgb(243, 243, 243);
-        border-radius: 5%;
-        height: 400px;
-        width: 500px;
-       
+    .clase-receta-aleatoria {
+      background-color: rgb(243, 243, 243);
+      border-radius: 10px; /* Aumenté el radio del borde para hacerlo más redondeado */
+      padding: 20px; /* Añadí espacio interno al contenedor de la receta aleatoria */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadí una sombra sutil */
     }
 
     body .barra-arriba {
@@ -48,16 +47,20 @@ max-height: 200px;
     }
 
     /* Estilo general para el cuerpo del sitio */
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Establece la altura mínima del cuerpo para llenar la pantalla completa */
-    margin: 0;
-  }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+    
   
   /* Estilo para el contenido principal (ajusta según sea necesario) */
   main {
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Estilo para el footer */
