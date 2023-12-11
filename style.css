@@ -1,12 +1,10 @@
-#receta-aleatoria {
-margin-left: 5%;
-}
+
 
 body .instrucciones {
 color: rgb(59, 59, 59);
-font-size: 70%;
+font-size: 80%;
 overflow-y: scroll;
-max-height: 200px;
+max-height: 700px;
 }
 
 #buscar-btn {
@@ -27,13 +25,16 @@ max-height: 200px;
     margin: 5%;
     }
 
+
     .clase-receta-aleatoria {
       background-color: rgb(243, 243, 243);
-      border-radius: 10px; /* Aumenté el radio del borde para hacerlo más redondeado */
-      padding: 20px; /* Añadí espacio interno al contenedor de la receta aleatoria */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadí una sombra sutil */
+      border-radius: 10px; /* Puedes ajustar el radio del borde según tus preferencias */
+      padding: 10px 20px; /* Reduje el espacio interno para achicar la casilla */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 300px; /* Establecí un ancho máximo para controlar el tamaño */
+      width: 300px; /* Hace que el contenedor ocupe el ancho máximo posible */
+      margin: 0 auto; /* Centra el contenedor horizontalmente */
     }
-
     body .barra-arriba {
         height: 20PX;
         background-color: black;
